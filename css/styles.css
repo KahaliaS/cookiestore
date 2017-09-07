@@ -1,0 +1,38 @@
+body{
+	background-color: lightgrey;
+}
+#pic{
+	position: relative;
+    left: 30px;
+}
+#cookies{
+
+	background-color: white;
+}
+#contact-us{
+	background-color: lightblue;
+}
+#about-us{
+
+	background-color: grey;
+}
+#header{
+	height:400px;
+	background:url('../img/milkbg.jpg') no-repeat center #00f;
+	background-size:cover;
+	position: relative;
+}
+.row{
+	padding-bottom: 30px;
+}
+
+.jumbotron{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translateY(-50%) translateX(-50%) ;
+	background-color: rgba(0,0,0,0.4);
+	color: lightgrey;
+
+
+}
