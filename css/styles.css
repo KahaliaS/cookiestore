@@ -1,6 +1,7 @@
 body{
-	background-color: lightgrey;
+	background-color: white;
 }
+
 #pic{
 	position: relative;
     left: 30px;
@@ -8,23 +9,31 @@ body{
 #cookies{
 
 	background-color: white;
+	height: 700px;
 }
 #contact-us{
-	background-color: lightblue;
+	background-color: rgb(55, 121, 229);
+	height:150px;
+	color: white;
 }
 #about-us{
 
-	background-color: grey;
+	background-color: rgb(227, 231, 237);
+	height:220px;
+	
 }
+#new-btn{
+
+	white-space: normal;
+}
+
 #header{
 	height:400px;
 	background:url('../img/milkbg.jpg') no-repeat center #00f;
 	background-size:cover;
 	position: relative;
 }
-.row{
-	padding-bottom: 30px;
-}
+/*add padding to text*/
 
 .jumbotron{
 	position:absolute;
@@ -32,7 +41,19 @@ body{
 	left:50%;
 	transform: translateY(-50%) translateX(-50%) ;
 	background-color: rgba(0,0,0,0.4);
-	color: lightgrey;
-
+	color: rgb(242, 244, 247);
 
 }
+
+img{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-height: 90%;
+}
+
+@media (max-width: 500px) {
+    * {font-size: 11.5px;}
+}
+
+
