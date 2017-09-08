@@ -44,6 +44,9 @@ body{
 	color: rgb(242, 244, 247);
 
 }
+.col-md-6 {
+    text-align: center
+}
 
 img{
 
